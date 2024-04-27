@@ -48,6 +48,9 @@ devDependencies:
   '@types/jsonwebtoken':
     specifier: ^9.0.6
     version: 9.0.6
+  tslib:
+    specifier: ^2.6.2
+    version: 2.6.2
   wrangler:
     specifier: ^3.52.0
     version: 3.52.0(@cloudflare/workers-types@4.20240423.0)
