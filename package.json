@@ -19,7 +19,7 @@
   "author": "Minh Hiep Le",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/minhhieple97/freedome-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -50,6 +50,8 @@
     "@babel/preset-env": "^7.24.4",
     "@babel/preset-typescript": "^7.24.1",
     "@types/express": "^4.17.21",
-    "@types/jsonwebtoken": "^9.0.6"
+    "@types/jsonwebtoken": "^9.0.6",
+    "@cloudflare/workers-types": "^4.20240423.0",
+    "wrangler": "^3.52.0"
   }
 }
