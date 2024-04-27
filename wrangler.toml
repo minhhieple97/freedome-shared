@@ -1,0 +1,11 @@
+name = "<YOUR_WORKER_NAME>"
+main = "./src/index.ts"
+
+compatibility_date = "2022-06-30"
+
+account_id = "" # Replace with your Account ID.
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'FREEDOME_BUCKET'
+bucket_name = 'freedome'
